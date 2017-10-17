@@ -4,16 +4,17 @@
 "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <html>
 <head>
-	<title>ÍøÉÏÊéµê</title>
+	<title>ç½‘ä¸Šä¹¦åº—</title>
 	<link href="css/bookstore.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+	
 	<div class="head">
 		<div class="head_left">
-			<a href="#">
+			<a href="">
 				<img hspace="11" src="picture/logo.png" vspace="5">
 			</a>
-			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ÊéµêÌá¹©×¨Òµ·şÎñ
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ä¹¦åº—æä¾›ä¸“ä¸šæœåŠ¡
 		</div>
 		<div class="head_right">
 			<div class="head_right_nei">
@@ -21,34 +22,34 @@
 					<div class="head_buy">
 						<strong>
 							<a href="/bookstore/showCart.jsp">
-								<img height="15" src="picture/buy01.jpg" width="16">&nbsp;¹ºÎï³µ
+								<img height="15" src="picture/buy01.jpg" width="16">&nbsp;è´­ç‰©è½¦
 							</a>
 						</strong> |
-						<a href="#">ÓÃ»§FAQ</a>
+						<a href="#">ç”¨æˆ·FAQ</a>
 					</div>
 				</div>
 				<div class="head_middle">
 					<a class="title01" href="index.jsp">
-						<span>&nbsp;&nbsp;Ê×Ò³&nbsp;&nbsp;</span>
+						<span>&nbsp;&nbsp;é¦–é¡µ&nbsp;&nbsp;</span>
 					</a>
 					<s:if test="#session.user==null">
 						<a class="title01" href="login.jsp">
-							<span>&nbsp;&nbsp;µÇÂ¼&nbsp;&nbsp;</span>
+							<span>&nbsp;&nbsp;ç™»å½•&nbsp;&nbsp;</span>
 						</a>
 					</s:if>
 					<s:else>
 						<a class="title01" href="logout.action">
-							<span>&nbsp;&nbsp;×¢Ïú&nbsp;&nbsp;</span>
+							<span>&nbsp;&nbsp;æ³¨é”€&nbsp;&nbsp;</span>
 						</a>
 					</s:else>
 					<a class="title01" href="register.jsp">
-						<span>&nbsp;&nbsp;×¢²á&nbsp;&nbsp;</span>
+						<span>&nbsp;&nbsp;æ³¨å†Œ&nbsp;&nbsp;</span>
 					</a>
 					<a class="title01" href="#">
-						<span>&nbsp;ÁªÏµÎÒÃÇ&nbsp;&nbsp;&nbsp;</span>
+						<span>&nbsp;è”ç³»æˆ‘ä»¬&nbsp;&nbsp;&nbsp;</span>
 					</a>
 					<a class="title01" href="#">
-						<span>&nbsp;ÍøÕ¾µØÍ¼&nbsp;&nbsp;&nbsp;</span>
+						<span>&nbsp;ç½‘ç«™åœ°å›¾&nbsp;&nbsp;&nbsp;</span>
 					</a>
 				</div>
 				<div class="head_bottom">
